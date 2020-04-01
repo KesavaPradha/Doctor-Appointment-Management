@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorOrange"
+    android:gravity="center"
+    tools:context=".AppointmentActivity">
+
+
+    <Button
+        android:id="@+id/book_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/live_btn"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="30dp"
+        android:background="@color/colorPurple"
+        android:fontFamily="serif-monospace"
+        android:padding="10dp"
+        android:text="BOOK APPOINTMENT"
+        android:textColor="@color/colorOrange"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/live_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/logout_btn"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="30dp"
+        android:background="@color/colorPurple"
+        android:fontFamily="serif-monospace"
+        android:padding="10dp"
+        android:text="View Live Status"
+        android:textColor="@color/colorOrange"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/logout_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@color/colorPurple"
+        android:fontFamily="serif-monospace"
+        android:padding="10dp"
+        android:text="Logout"
+        android:textColor="@color/colorOrange"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

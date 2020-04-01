@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DialogBox">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/confirm_txt"
+            android:text="Confirm your booking on "
+            android:textSize="15sp"
+            android:padding="10dp"
+            android:fontFamily="serif"
+            android:textColor="@color/colorPurple"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/token_txt"
+            android:text="Your token will be "
+            android:textStyle="bold"
+            android:fontFamily="serif"
+            android:textSize="15sp"
+            android:textColor="@color/colorPurple"
+            android:padding="10dp"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
